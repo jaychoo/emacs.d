@@ -36,6 +36,7 @@
 (global-set-key [f3] 'helm-projectile-grep)
 (global-set-key [f4] 'helm-projectile)
 (global-set-key [f5] 'shell-pop)
+(global-set-key [f6] 'goto-line)
 (global-set-key [f7] 'toggle-comment-on-line)
 
 (global-set-key (kbd "M-0") 'delete-window)
