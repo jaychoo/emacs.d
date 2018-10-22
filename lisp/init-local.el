@@ -7,7 +7,7 @@
 
 (setq inhibit-startup-message t) ;; hide the startup message
 
-(setq custom-safe-themes t)
+;; (setq custom-safe-themes t)
 ;; (load-theme 'dracula t)
 
 (projectile-global-mode)
@@ -26,11 +26,10 @@
 )
 
 (global-linum-mode t) ;; enable line numbers globally
-;; (setq linum-format "%d ")
+(setq linum-format "%d ")
 (setq column-number-mode t)
 
 (setq frame-title-format '("Emacs @ " ": %b %+%+ %f"))
-
 
 (global-set-key [f2] 'neotree-toggle)
 (global-set-key [f3] 'helm-projectile-grep)
@@ -55,9 +54,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   (quote
-    ("28130127bbf3072c1bbc7652fca7245f186bb417b3b385a5e4da57b895ffe9d8" default)))
+
  '(package-selected-packages (quote (flycheck material-theme elpy better-defaults)))
  '(shell-pop-window-position "bottom")
  '(shell-pop-window-size 30))
