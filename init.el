@@ -48,6 +48,8 @@
 (require-package 'diminish)
 (require-package 'scratch)
 (require-package 'command-log-mode)
+(require-package 'helm-projectile)
+(require-package 'neotree)
 
 (require 'init-frame-hooks)
 (require 'init-xterm)
